@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300;400;600&family=Parisienne&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fffdf2;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #fff4b3, #ffffff);
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 48px;
+    color: #d4a017;
+    margin: 0;
+}
+
+nav {
+    background-color: #fff9d6;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #f0e68c;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    color: #b8860b;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffb700;
+}
+
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main-img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+ul {
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.gallery img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #fff4b3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #8b7500;
+}
+.center{
+    text-align:center;
+    margin-top:100px;
+}
+.gif-right{
+    width:150px;
+    float:right;
+    margin-left:20px;
+}
