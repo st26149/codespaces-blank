@@ -87,3 +87,16 @@ footer {
     float:right;
     margin-left:20px;
 }
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+.gallery img {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.gallery img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
