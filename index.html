@@ -1,49 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Whakapapa</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        /* simple welcome animation */
-        .welcome {
-            animation: fadeIn 2s ease;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* slightly bigger welcome text */
-        .welcome h2 {
-            font-size: 36px;
-            color: #d4a017;
-        }
-
-        /* simple hover effect for the welcome box */
-        .welcome-box {
-            background-color: #fff9e6;
-            padding: 30px;
-            border-radius: 12px;
-            display: inline-block;
-            transition: transform 0.3s;
-        }
-
-        .welcome-box:hover {
-            transform: scale(1.05);
-        }
-    </style>
-
 </head>
-
 <body>
 
 <header>
@@ -57,17 +17,15 @@
     <a href="interests.html">My Interests</a>
 </nav>
 
-<main class="center welcome">
-
-    <div class="welcome-box">
+<main class="center fade-in">
+    <div class="welcome-box glow hover-grow">
         <h2>Hello!</h2>
         <p>Welcome to my website about my culture, my family, and my interests.</p>
     </div>
-
 </main>
 
 <footer>
-    2026 My Culture Website
+    Ekaman Kaur - 2026 Culture Website
 </footer>
 
 </body>
